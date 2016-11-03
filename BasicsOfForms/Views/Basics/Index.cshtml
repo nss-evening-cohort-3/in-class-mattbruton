@@ -6,6 +6,7 @@
     <div>
         <h2>HTML Form</h2>
         <form method="post" action="">
+            @Html.AntiForgeryToken()
             <div class="form-group">
                 <input type="email" class="form-control" name="email" placeholder="Email" />
             </div>
