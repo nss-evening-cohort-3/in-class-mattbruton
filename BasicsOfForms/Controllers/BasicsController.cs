@@ -35,5 +35,10 @@ namespace BasicsOfForms.Controllers
             string i = "stop here";
             return View();
         }
+
+        public ActionResult Angular()
+        {
+            return View();
+        }
     }
 }
