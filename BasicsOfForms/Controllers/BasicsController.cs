@@ -22,5 +22,18 @@ namespace BasicsOfForms.Controllers
             string i = "stop here";
             return View();
         }
+
+        // GET: Razor
+        public ActionResult Razor()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Razor(FormCollection value)
+        {
+            string i = "stop here";
+            return View();
+        }
     }
 }
