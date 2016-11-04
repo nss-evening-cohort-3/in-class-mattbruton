@@ -12,6 +12,8 @@ namespace BasicsOfForms.Controllers
         // POST api/<controller>
         public void Post([FromBody]dynamic value)
         {
+            string i = "i";
+
         }
     }
 }
